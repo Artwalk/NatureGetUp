@@ -31,12 +31,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.art.naturegetup.lightScreen"
+            android:name="com.art.naturegetup.LightScreen"
             android:launchMode="singleTask"
             android:label="@string/app_name" >
         </activity>
 
-        <receiver android:name=".receiver" >
+        <receiver android:name=".WakeUpBroadcastReceiver" >
             <intent-filter>
                 <action android:name="WAKEUP" />
             </intent-filter>
