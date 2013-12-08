@@ -129,15 +129,6 @@ public class NatureGetUp extends Activity {
 		getWindow().setAttributes(lp);
 	}
 
-	// public void setBrightness(int brightness) {
-	// WindowManager.LayoutParams lp = getWindow().getAttributes();
-	//
-	// lp.screenBrightness = Float.valueOf(brightness) * (1f / 255f);
-	// Log.d("lxy", "set  lp.screenBrightness == " + lp.screenBrightness);
-	//
-	// getWindow().setAttributes(lp);
-	// }
-
 	/** * 停止自动亮度调节 */
 	public void stopAutoBrightness() {
 		Settings.System.putInt(getContentResolver(),
